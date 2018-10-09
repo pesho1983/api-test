@@ -10,7 +10,7 @@
     "reporter": "^0.1.0"
   },
   "scripts": {
-    "test": "newman run tests/test.json --reporters junit --reporter-junit-export newman.xml"
+    "test": "newman run tests/test.json --reporters cli,junit --reporter-junit-export newman.xml"
   },
   "author": "P Aleksandrov"
 }
