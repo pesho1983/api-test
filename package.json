@@ -1,0 +1,12 @@
+{
+  "name": "postman",
+  "version": "1.0.0",
+  "description": "Postman test tests",
+  "scripts": {
+    "test": "newman run test.json"
+  },
+  "author": "P Aleksandrov",
+  "dependencies": {
+    "newman": "^4.1.0"
+  }
+}
