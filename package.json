@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Postman test tests",
   "scripts": {
-    "test": "newman run test.json"
+    "test": "newman run tests/test.json"
   },
   "author": "P Aleksandrov",
   "dependencies": {
