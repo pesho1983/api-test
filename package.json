@@ -1,12 +1,25 @@
 {
-  "name": "postman",
+  "name": "api-test",
   "version": "1.0.0",
-  "description": "Postman test tests",
+  "description": "Postman api test",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "newman": "^4.1.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "newman run tests/test.json"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pesho1983/api-test.git"
+  },
   "author": "P Aleksandrov",
-  "dependencies": {
-    "newman": "^4.1.0"
-  }
+  "bugs": {
+    "url": "https://github.com/pesho1983/api-test/issues"
+  },
+  "homepage": "https://github.com/pesho1983/api-test#readme"
 }
