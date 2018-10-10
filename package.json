@@ -12,7 +12,7 @@
   },
   "scripts": {
     "test": "newman run tests/test.json --reporters html",
-	"test1": "newman run tests/test.json junit --reporter-junit-export newman.xml"
+	"test1": "newman run tests/test.json --reporters junit --reporter-junit-export newman.xml"
   },
   "author": "P Aleksandrov"
 }
