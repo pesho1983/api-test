@@ -1,15 +1,17 @@
 {
   "name": "api-test",
   "version": "1.0.0",
-  "description": "Postman api test",
+  "description": "api-test",
   "directories": {
     "test": "tests"
   },
   "dependencies": {
-    "newman": "^4.1.0"
+    "newman": "^4.1.0",
+    "newman-reporter-html": "^1.0.2",
+    "reporter": "^0.1.0"
   },
   "scripts": {
-    "test": "newman run tests/test.json"
+    "test": "newman run tests/test.json --reporters html"
   },
   "author": "P Aleksandrov"
 }
